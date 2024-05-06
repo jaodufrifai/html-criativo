@@ -5,8 +5,13 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+main{
+  background-image: url(camuflage.jpg);
+  position: absolute;
+
+}
 .cabecalho {
-    background-color: #424E61;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -31,10 +36,10 @@ body {
 
 .escola-imagem{
   width: 25%;
+  border-radius: 10%;
 }
 
 #escola{
-  background-image: linear-gradient(#424E61,#16CFF8);
   color: white;
   display: flex;
   justify-content: center;
@@ -48,15 +53,18 @@ body {
 
 .escola-titulo{
   padding: 24px 0;
+  color: white;
 }
 
 #estudante{
-  background-image: linear-gradient(#16CFF8, #424E61);
+  color: white;
   padding: 24px;
 }
 
 .estudante-imagem{
   height: 225px;
+  background-color: black;
+  border-radius: 80px;
 }
 
 .estudante-icone{
@@ -78,9 +86,3 @@ body {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
-
-.rodape{
-  background-color: black;
-  text-align: center;
-}
-
