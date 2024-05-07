@@ -8,8 +8,9 @@ body {
 
 main{
   background-image: url(camuflage.jpg);
-  position: absolute;
-
+  background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
 }
 .cabecalho {
     color: white;
